@@ -25,7 +25,7 @@ export default class SearchBanner extends Component {
       // "all"
       return (
         currentRouteName !== "full-page-search" &&
-        !currentRouteName.startsWith("admin.")
+        !currentRouteName.startsWith("admin.") && !currentRouteName.startsWith("docs.")
       );
     }
   }
